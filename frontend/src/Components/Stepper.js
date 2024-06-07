@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PersonalInfo from './PersonalInfo';
 import AccountInfo from './AccountInfo';
 import Confirmation from './Confirmation';
-import VideoList from './VideoList';
+
 
 const Stepper = () => {
     const [currentStep, setCurrentStep] = useState(0);
