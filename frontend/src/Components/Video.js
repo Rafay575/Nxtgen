@@ -10,6 +10,7 @@ const ImageCarousel = () => {
     slidesToShow: 4,
     autoplay: true,
     autoplaySpeed: 2000,
+    cssEase: "linear", 
     responsive: [
       {
         breakpoint: 1024,
