@@ -2,6 +2,7 @@ import React from 'react'
 import FighterCard from '../Components/FighterCard'
 import Footer from '../Components/Footer'
 import SocialProfile from '../Components/SocialProfile'
+import SocialRajab from '../Components/SocialRajab'
 import Hero from '../Components/Hero'
 import Video from '../Components/Video'
 
@@ -16,6 +17,9 @@ function Home() {
                 <SocialProfile />
             </div>
           
+            <div className="app bg-white min-h-screen flex items-center justify-center">
+                <SocialRajab />
+            </div>
             <Video />
             <Footer />
         </div>
