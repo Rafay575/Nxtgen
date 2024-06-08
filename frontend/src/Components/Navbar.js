@@ -39,17 +39,17 @@ const Navbar = () => {
       {/* Navigation Menu */}
       <div className={`absolute right-0 hidden md:flex bg-transparent transition-transform translate-x-full   md:translate-x-0 md:w-auto  md:h-auto  md:flex-row  md:justify-end  p-8`} style={{ zIndex: 10 }}>
         <a href="#home" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Home</a>
-        <a href="#about" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">About</a>
-        <a href="#services" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Services</a>
-        <a href="#contact" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Contact</a>
+        <a href="#Athlete" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Athlete</a>
+        <a href="#Social" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Social</a>
+        {/* <a href="#contact" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Contact</a> */}
       </div>
       {
         isOpen && (
           <div className='md:hidden bg-black h-screen flex flex-col justify-center items-center'>
-            <a href="#home" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Home</a>
-            <a href="#about" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">About</a>
-            <a href="#services" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Services</a>
-            <a href="#contact" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Contact</a>
+             <a href="#home" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Home</a>
+        <a href="#Athlete" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Athlete</a>
+        <a href="#Social" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Social</a>
+            {/* <a href="#contact" className="text-white hover:text-gray-300 font-bold text-xl block py-2 pr-4 pl-3 md:p-4">Contact</a> */}
           </div>
         )
       }

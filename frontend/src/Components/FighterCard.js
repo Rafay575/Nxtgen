@@ -36,7 +36,7 @@ const FighterCard = () => {
 
   return (
     <>
-      <div className='bg-black py-5 text-white text-center'>
+      <div className='bg-black py-5 text-white text-center' id='home'>
         <h1 className='font-bold text-3xl my-10'>Our ATHLETES</h1>
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-around">
           {athletes.map((athlete, index) => (
