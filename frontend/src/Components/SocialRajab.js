@@ -26,7 +26,9 @@ const SocialProfile = () => {
 
       <div className="p-4 bg-gray-100 text-center">
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          View full profile on Instagram
+            <a href='https://www.instagram.com/rajab.butt94/' className="inline-block w-full h-full">
+            View full profile on Instagram
+            </a>
         </button>
       </div>
     </div>

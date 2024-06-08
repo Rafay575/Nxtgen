@@ -27,9 +27,12 @@ const SocialProfile = () => {
       </div>
 
       <div className="p-4 bg-gray-100 text-center">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          View full profile on Instagram
-        </button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  <a href='https://www.instagram.com/anasaliecom/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr' className="inline-block w-full h-full">
+    View full profile on Instagram
+  </a>
+</button>
+
       </div>
     </div>
   );
