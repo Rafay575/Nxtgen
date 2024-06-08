@@ -44,7 +44,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto mt-8 gap-4">
+    <div className="max-w-7xl mx-auto mt-8 gap-4 overflow-x-hidden">
       <Slider {...settings}>
         <div>
           <img src="/images/bg-1.jpg" alt="Image 1" className="w-full h-auto" />
