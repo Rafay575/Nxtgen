@@ -6,14 +6,17 @@ import SocialRajab from '../Components/SocialRajab'
 import Hero from '../Components/Hero'
 import Video from '../Components/Video'
 
+
 function Home() {
     return (
         <div>
+            
             <Hero />
             <FighterCard />
             <div className="app bg-white min-h-screen flex items-center justify-center">
                 <SocialProfile />
             </div>
+          
             <div className="app bg-white min-h-screen flex items-center justify-center">
                 <SocialRajab />
             </div>

@@ -2,8 +2,7 @@ import React from 'react';
 
 const SocialProfile = () => {
   return (
-    <div className=" mx-auto  rounded-lg shadow-md overflow-hidden">
-        
+    <div className=" max-w-7xl mx-auto mt-8 gap-4  rounded-lg shadow-md overflow-hidden">
         <h1 className='font-bold text-3xl my-10 text-center'>SOCIAL</h1>
       <div className="p-5">
         <div className="flex items-start space-x-3">
@@ -16,7 +15,6 @@ const SocialProfile = () => {
           </div>
         </div>
       </div>
-
       <div className="grid grid-cols-3 gap-1 p-1">
         {/* Map through your posts data and render images */}
         {[1,2,3,4,5,6].map((_, index) => (
