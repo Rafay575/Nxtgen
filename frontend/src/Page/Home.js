@@ -13,6 +13,7 @@ function Home() {
             
             <Hero />
             <FighterCard />
+            <Video />
             <div className="app bg-white min-h-screen flex items-center justify-center">
                 <SocialProfile />
             </div>
@@ -20,7 +21,6 @@ function Home() {
             <div className="app bg-white min-h-screen flex items-center justify-center">
                 <SocialRajab />
             </div>
-            <Video />
             <Footer />
         </div>
     )
