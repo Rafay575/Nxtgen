@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialProfile = () => {
   return (
-    <div className=" max-w-7xl mx-auto mt-8 gap-4  rounded-lg shadow-md overflow-hidden">
+    <div className=" max-w-7xl mx-auto mt-8 gap-4  rounded-lg shadow-md overflow-hidden" id='Social'>
         <h1 className='font-bold text-3xl my-10 text-center'>SOCIAL </h1>
       <div className="p-5">
         <div className="flex items-start space-x-3">

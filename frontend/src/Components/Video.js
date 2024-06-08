@@ -6,11 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 const ImageCarousel = () => {
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 6000,
     slidesToShow: 4,
     autoplay: true,
     autoplaySpeed: 2000,
-    cssEase: "linear", 
+    cssEase: "linear",
+    arrows: false, 
     responsive: [
       {
         breakpoint: 1024,
@@ -39,64 +40,30 @@ const ImageCarousel = () => {
   };
 
   const reverseSettings = {
-   ...settings,
-    rtl: true, 
+    ...settings,
+    rtl: true,
   };
 
   return (
-    <div className="max-w-7xl mx-auto mt-8 gap-4 overflow-x-hidden bg-black">
-      <Slider {...settings}>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 1" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 2" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 3" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 4" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 5" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 6" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 7" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-1.jpg" alt="Image 8" className="w-full h-auto" />
-        </div>
-      </Slider>
-      <Slider {...reverseSettings}>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 9" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 10" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 11" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 12" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 13" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 14" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 15" className="w-full h-auto" />
-        </div>
-        <div>
-          <img src="/images/bg-2.jpg" alt="Image 16" className="w-full h-auto" />
-        </div>
-      </Slider>
+    <div className=" mx-auto py-10 overflow-x-hidden bg-black px-2 ">
+      <div className="mb-2">
+        <Slider {...settings}>
+          {[...Array(8)].map((_, index) => (
+            <div key={index} className="px-2">
+              <img src={`/images/bg-1.jpg`} alt={`Image ${index + 1}`} className="w-full h-auto" />
+            </div>
+          ))}
+        </Slider>
+      </div>
+      <div className="mb-8">
+        <Slider {...reverseSettings}>
+          {[...Array(8)].map((_, index) => (
+            <div key={index} className="px-2">
+              <img src={`/images/bg-2.jpg`} alt={`Image ${index + 9}`} className="w-full h-auto" />
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

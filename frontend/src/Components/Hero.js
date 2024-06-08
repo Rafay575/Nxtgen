@@ -4,7 +4,7 @@ import Navbar from './Navbar'; // Make sure the path to Navbar.js is correct
 
 const Hero = () => {
     return (
-        <div className="relative ">
+        <div className="relative " id='home'>
             <Navbar />
             <div className="w-full max-h-[100vh] overflow-hidden">
                 <img

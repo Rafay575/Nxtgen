@@ -11,28 +11,14 @@ const Footer = () => {
                     <div className="flex-1 text-right">
                         <ul className="text-gray-500 dark:text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a
-                                    href="https://www.instagram.com/anasaliecom/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"
-                                    className="hover:underline"
-                                >
-                                    Instagram
-                                </a>
+                                <a href="#home" className="text-white hover:text-gray-300  block py-2   md:p-4">Home</a>
                             </li>
                             <li className="mb-4">
-                                <a
-                                    href="https://www.tiktok.com/@anasaliecoms"
-                                    className="hover:underline"
-                                >
-                                    TikTok
-                                </a>
+                                <a href="#Athlete" className="text-white hover:text-gray-300  block py-2   md:p-4">Athlete</a>
+
                             </li>
                             <li>
-                                <a
-                                    href="https://www.youtube.com/@AnasAli11011"
-                                    className="hover:underline"
-                                >
-                                    YouTube
-                                </a>
+                                <a href="#Social" className="text-white hover:text-gray-300  block py-2   md:p-4">Social</a>
                             </li>
                         </ul>
                     </div>

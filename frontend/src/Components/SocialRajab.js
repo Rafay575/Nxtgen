@@ -2,7 +2,9 @@ import React from 'react';
 
 const SocialProfile = () => {
   return (
-    <div className=" mx-auto  rounded-lg shadow-md overflow-hidden">
+    <div className=" max-w-7xl mx-auto mt-8 gap-4  rounded-lg shadow-md overflow-hidden" >
+
+    <div className=" mx-auto   rounded-lg shadow-md overflow-hidden">
       <div className="p-5">
         <div className="flex items-start space-x-3">
           <img src="/images/rpic.jpeg" alt="Profile Icon" className="h-10 w-10 rounded-full"/>
@@ -32,6 +34,7 @@ const SocialProfile = () => {
         </button>
       </div>
     </div>
+      </div>
   );
 };
 

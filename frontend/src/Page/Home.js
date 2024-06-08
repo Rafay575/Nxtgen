@@ -14,11 +14,11 @@ function Home() {
             <Hero />
             <FighterCard />
             <Video />
-            <div className="app bg-white min-h-screen flex items-center justify-center">
+            <div className=" bg-white  flex items-center justify-center">
                 <SocialProfile />
             </div>
           
-            <div className="app bg-white min-h-screen flex items-center justify-center">
+            <div className=" bg-white  flex items-center justify-center">
                 <SocialRajab />
             </div>
             <Footer />
