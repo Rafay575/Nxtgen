@@ -14,7 +14,7 @@ const FighterCard = () => {
   const athletes = [
     {
       name: "RAJAB BUTT",
-      img: "/images/img-1.png",
+      img: "/images/img-1.jpg",
       stats: { wins: 46, kos: 30, draws: 1, losses: 2, winRate: 93, koRate: 65 },
       bio: "Rajab Butt is a renowned athlete known for his outstanding skills and dedication."
     },

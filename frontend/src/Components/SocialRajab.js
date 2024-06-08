@@ -21,7 +21,7 @@ const SocialProfile = () => {
         {/* Map through your posts data and render images */}
         {[1,2,3,4,5,6].map((_, index) => (
           <div key={index} className="aspect-w-1 aspect-h-1">
-            <img src={`/images/r-${_}.png`} alt={`Post ${index}`} className="w-full h-full object-cover"/>
+            <img src={`/images/r-${_}.jpg`} alt={`Post ${index}`} className="w-full h-full object-cover"/>
           </div>
         ))}
       </div>
