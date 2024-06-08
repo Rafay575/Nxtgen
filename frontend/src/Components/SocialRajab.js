@@ -3,16 +3,14 @@ import React from 'react';
 const SocialProfile = () => {
   return (
     <div className=" mx-auto  rounded-lg shadow-md overflow-hidden">
-        
-        <h1 className='font-bold text-3xl my-10 text-center'>SOCIAL</h1>
       <div className="p-5">
         <div className="flex items-start space-x-3">
-          <img src="/images/apic.png" alt="Profile Icon" className="h-10 w-10 rounded-full"/>
+          <img src="/images/rpic.jpeg" alt="Profile Icon" className="h-10 w-10 rounded-full"/>
           <div className="space-y-1">
-            <h1 className="text-lg font-bold">Muhammad Anas Ali</h1>
-            <p className="text-gray-500">@anasaliecom</p>
-            <p className="text-gray-500">536K followers</p>
-            <p className="text-gray-500">309 posts</p>
+            <h1 className="text-lg font-bold">Rajab Butt</h1>
+            <p className="text-gray-500">@rajab_butt94</p>
+            <p className="text-gray-500">657K followers</p>
+            <p className="text-gray-500">15 posts</p>
           </div>
         </div>
       </div>
@@ -21,7 +19,7 @@ const SocialProfile = () => {
         {/* Map through your posts data and render images */}
         {[1,2,3,4,5,6].map((_, index) => (
           <div key={index} className="aspect-w-1 aspect-h-1">
-            <img src={`/images/a-${_}.png`} alt={`Post ${index}`} className="w-full h-full object-cover"/>
+            <img src={`/images/r-${_}.png`} alt={`Post ${index}`} className="w-full h-full object-cover"/>
           </div>
         ))}
       </div>
